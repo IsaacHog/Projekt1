@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adrian's page</title>
     <link rel="stylesheet" href="styles.css">
+
+    <script>
+        function makeDark() {
+            document.body.style.backgroundColor = '#333333';
+            document.body.style.color = 'darkgreen';
+        }
+        function makeLight() {
+            document.body.style.backgroundColor = 'blue';
+            document.body.style.color = 'pink';
+        }
+
+    </script>
+
 </head>
 <body>
     <ul>
@@ -13,6 +26,11 @@
         <li><a class="aktuell" href="Adrian.html">Adrian</a></li>
         <li><a href="../Hugo/hugo.html">Hugo</a></li>
         <li><a href="../Isaac/isaac.html">Isaac</a></li>
+     
+            <li type="button" class="btn" value="Dark" onclick=makeDark()><a>Dark</a></li> <!--dark-->
+            <li type="button" class="btn" value="Dark" onclick=makeLight()><a>Light</a></li> <!--dark-->
+          
+        
       </ul> 
 <div id="Info">
     <h4>

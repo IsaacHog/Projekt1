@@ -4,6 +4,18 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="styles.css">
 <title>Om Isaac Högfeldt</title>
+
+<script>
+  function makeDark() {
+      document.body.style.backgroundColor = '#333333';
+      document.body.style.color = 'darkgreen';
+  }
+  function makeLight() {
+      document.body.style.backgroundColor = 'blue';
+      document.body.style.color = 'pink';
+  }
+
+</script>
 </head>
 <body>
     <ul>
@@ -11,6 +23,9 @@
         <li><a href="../Adrian/Adrian.html">Adrian</a></li>
         <li><a href="../Hugo/hugo.html">Hugo</a></li>
         <li><a class="aktuell" href="isaac.html">Isaac</a></li>
+        <li type="button" class="btn" value="Dark" onclick=makeDark()><a>Dark</a></li> <!--dark-->
+        <li type="button" class="btn" value="Dark" onclick=makeLight()><a>Light</a></li> <!--dark-->
       </ul> 
+      <p>amogus</p>
 </body>
 </html>
