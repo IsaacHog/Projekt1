@@ -1,0 +1,23 @@
+#Info{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 10px;
+    
+    border: 5px black;
+    border-style: solid;
+}
+#Projekt_showcase{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    
+}
+#Projekt1{
+    margin: auto;
+}
+#Projekt2{
+    margin: auto;
+}
+#Projekt3{
+    margin: auto;
+}
