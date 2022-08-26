@@ -30,12 +30,21 @@ ul {
     color: white;
   }
 
-
 h1 {
   margin: 5%;
   font-size: 5rem;
   
   }
-body {
-  background-image: url("Hugo photo_EDITED.jpg");
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  background-image: url('Hugo photo_EDITED.jpg');
+}
+
+html, body {
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
 }

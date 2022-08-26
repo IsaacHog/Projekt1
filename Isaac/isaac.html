@@ -6,25 +6,45 @@
 <title>Om Isaac Högfeldt</title>
 
 <script>
-  function makeDark() {
-      document.body.style.backgroundColor = '#333333';
-      document.body.style.color = 'darkgreen';
-  }
-  function makeLight() {
-      document.body.style.backgroundColor = 'blue';
-      document.body.style.color = 'pink';
-  }
+        function toggleTheme() {
+        let color9 = 'black';
+        let color10 = 'white';
+        
+        if (document.body.style.backgroundColor === 'black') {
+            document.getElementById("btn").innerHTML = "Dark";
+            color9 = 'white';
+            color10 = 'black';
+        }
+        else {
+            document.getElementById("btn").innerHTML = "White";
+
+            let color9 = 'black';
+            let color10 = 'white';
+        }
+
+        console.log(color9);
+        document.body.style.backgroundColor = color9;
+
+        var list= document.getElementsByTagName('div');
+        for (var i = 0; i < list.length; i++) {
+            list[i].style.color = color10;
+        }
+        var list= document.getElementsByTagName('p');
+        for (var i = 0; i < list.length; i++) {
+            list[i].style.color = color10;
+        }
+        
+    }
 
 </script>
 </head>
 <body>
-    <ul>
+    <ul id="navbar">
         <li><a href="../index.html">Home</a></li>
         <li><a href="../Adrian/Adrian.html">Adrian</a></li>
         <li><a href="../Hugo/hugo.html">Hugo</a></li>
         <li><a class="aktuell" href="isaac.html">Isaac</a></li>
-        <li type="button" class="btn" value="Dark" onclick=makeDark()><a>Dark</a></li> <!--dark-->
-        <li type="button" class="btn" value="Dark" onclick=makeLight()><a>Light</a></li> <!--dark-->
+        <li type="button" class="btn" value="Dark" onclick=toggleTheme()><a id="btn">Dark</a></li> <!--dark-->
       </ul> 
       <p>Isaac Högfeldt</p>
       <p>Age: 22</p>
