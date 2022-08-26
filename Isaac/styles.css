@@ -30,6 +30,11 @@
     color: white;
   }
 
+
+  #projekt {
+    display: flex;
+    flex-wrap: nowrap;
+  }
   #projekt ul {
     list-style-type: none; 
     margin: 0;
@@ -51,4 +56,12 @@
     position: absolute;
     text-decoration: none;
   }
-  
+
+  p {
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+
+  h2 {
+    font-family: sans-serif;
+  }
