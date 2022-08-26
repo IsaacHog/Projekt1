@@ -46,9 +46,10 @@ li a:hover {
 #NTI{
   position: absolute;
   top: 30px;
-  left: 30px;
   width: 100%;
-  height: auto;
 }
 
+body {
+  margin: 0%;
+}
 
