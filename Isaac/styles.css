@@ -1,4 +1,4 @@
-ul {
+#navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,12 +6,12 @@ ul {
     background-color: #333;
   }
   
-  li {
+  #navbar li {
     float: left;
     font-family: sans-serif;
   }
   
-  li a {
+  #navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -20,7 +20,7 @@ ul {
   }
   
   
-  li a:hover {
+  #navbar li a:hover {
     background-color: #111;
   }
   
@@ -28,4 +28,40 @@ ul {
   .aktuell {
     background-color: #04AA6D;
     color: white;
+  }
+
+
+  #projekt {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  #projekt ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 20px;
+  }
+
+  #projekt li {
+    float: left;
+    font-family: sans-serif;
+    
+  }
+
+  #projekt a {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    position: absolute;
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+
+  h2 {
+    font-family: sans-serif;
   }

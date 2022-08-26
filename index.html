@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="navbarStyles.css">
 <title>Startsida Mini Portfolio</title>
 <script>
   function makeDark() {
@@ -18,15 +19,23 @@
 </script>
 </head>
 <body>
+  <div id = "navbar">
     <ul>
-        <li><a class="aktuell" href="index.html">Home</a></li>
-        <li><a href="Adrian\Adrian.html">Adrian</a></li>
-        <li><a href="Hugo\hugo.html">Hugo</a></li>
-        <li><a href="Isaac\isaac.html">Isaac</a></li>
-        <li type="button" class="btn" value="Dark" onclick=makeDark()><a>Dark</a></li> <!--dark-->
-        <li type="button" class="btn" value="Dark" onclick=makeLight()><a>Light</a></li> <!--dark-->
-      </ul> 
-      <p>Välkommen till våran portfolio hemsida</p>
+      <li><a class="navbarAktuell" href="index.html">Home</a></li>
+      <li><a href="Adrian\Adrian.html">Adrian</a></li>
+      <li><a href="Hugo\hugo.html">Hugo</a></li>
+      <li><a href="Isaac\isaac.html">Isaac</a></li>
+      <li type="button" class="btn" value="Dark" onclick=makeDark()><a>Dark</a></li> <!--dark-->
+      <li type="button" class="btn" value="Dark" onclick=makeLight()><a>Light</a></li> <!--dark-->
+    </ul> 
+  </div>
+    
+     
+  <div id="Images">
+    <img src="Images/nti helsingborg logo.png" alt="" id="NTI">
+    <img  src="Images/20220825_142915.jpg" alt="" id="TEAM">
+  </div>
+      
 
 </body>
 </html>
